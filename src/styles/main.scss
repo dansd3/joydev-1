@@ -20,3 +20,14 @@
 @import "components/extra-features-section";
 @import "components/result-section";
 
+html {
+    font-size: 22px;
+}
+::-webkit-scrollbar {
+    width: 0;  
+}
+
+.page-wrapper {
+    font-family: "Gotham Pro", Lato, "Open Sans", Montserrat, Raleway, Ubuntu, Calibri, Arial, sans-serif;
+    overflow: hidden;
+}

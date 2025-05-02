@@ -26,7 +26,7 @@ $white: #fff;
     opacity: 0.05;
     background-repeat: repeat;
     background-position: center;
-    background-image: url("../img/noise.png");
+    background-image: url("../img/sprites/preview/noise.png");
     pointer-events: none;
     z-index: 1;
   }
@@ -51,7 +51,6 @@ $white: #fff;
   max-width: 470px;
   margin-bottom: 60px;
   pointer-events: auto;
-  font-family: Gotham Pro, Lato, "Open Sans", Montserrat, Raleway, Ubuntu, Calibri, Arial, sans-serif;
   background: transparent;
 }
 
@@ -145,9 +144,7 @@ $white: #fff;
   }
 }
 
-.body {
-  font-size: 22px;
-}
+
 
 @media (min-width: 768px) and (max-width: 1351px) {
   .preview {
