@@ -8,6 +8,7 @@
 }
 
 .task-inner{
+    box-sizing: border-box;
     position: relative;
     margin-bottom: 62px;
 }
@@ -290,7 +291,7 @@
             height: 30px;
         }
     }
-    
+
     .task-star-3 {
         img {
             height: 45px;
